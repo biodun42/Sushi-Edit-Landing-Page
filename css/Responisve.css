@@ -1,0 +1,590 @@
+@media screen and (max-width: 1246px) {
+  .navbar {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .middle-nav p {
+    font-size: 15px;
+  }
+  .left-logos img {
+    width: 30px;
+    height: 20px;
+  }
+  .top-button {
+    width: 120px;
+    height: 50px;
+  }
+  .top-button img {
+    width: 15px;
+    height: 15px;
+  }
+  .top-button p {
+    font-size: 15px;
+  }
+  .second-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: start;
+  }
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+  }
+  .left-part h1 {
+    font-size: 60px;
+    width: 560px;
+    text-align: left;
+  }
+  .left-part p {
+    font-size: 26px;
+    text-align: left;
+  }
+  .buttons p{
+    font-size: 19px;
+  }
+  .Video h5{
+    font-size: 19px;
+  }
+  .sushi_types {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .all_sushi{
+    padding: 9rem;
+  }
+  .fourth_wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .fifth_wrapper {
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .The_chef img{
+    width: 500px;
+  }
+  .The_chef .best-chef{
+    display: none;
+  }
+  .Right_About {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Right_About h1 {
+    text-align: center;
+    width: 500px;
+  }
+  .Right_About h5{
+    width: 450px;
+  }
+  .sixth-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .left_story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left_story h1 {
+    text-align: center;
+  }
+  .left_story h4 {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .left_story p {
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .two_top {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seventh-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 727px) {
+  .container{
+    padding: 1rem;
+  }
+  .left-part h1{
+    font-size: 50px;
+    width: 480px;
+  }
+  .left-part p{
+    width: 480px;
+  }
+  .best-sushi img{
+    width: 200px;
+  }
+  .below_sushi img{
+    width: 400px;
+  }
+  .two_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Right_About{
+    text-align: center;
+  }
+  .left_story h1{
+    width: 500px;
+  }
+  .left_story h4{
+    width: 490px;
+  }
+}
+@media screen and (max-width: 524px) {
+  .container{
+    padding: 1rem;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .middle-nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-logos {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .second-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .left-part h1 {
+    font-size: 28px;
+    width: 300px;
+    text-align: left;
+  }
+  .left-part p {
+    font-size: 19px;
+    width: 310px;
+    text-align: left;
+  }
+  .buttons {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .buttons p {
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .Video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Video h5 {
+    font-size: 12px;
+    width: 60px;
+  }
+  .best-sushi {
+    display: none;
+  }
+  .below_sushi {
+    bottom: 0px;
+  }
+  .below_sushi img {
+    width: 300px;
+  }
+  .third_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .third_header p {
+    font-size: 13px;
+  }
+  .third_header h1 {
+    font-size: 23px;
+  }
+  .all_sushi {
+    padding: 6rem;
+  }
+  .all_sushi h5 {
+    font-size: 24px;
+  }
+  .all_sushi p {
+    font-size: 18px;
+  }
+  .dish {
+    width: 150px;
+    height: 150px;
+  }
+  .sushi_types {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Special {
+    margin-top: -10rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .Special p {
+    font-size: 13px;
+  }
+  .available_sushi {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .Best_dishes h1 {
+    font-size: 20px;
+    width: 160px;
+  }
+  .arrow img {
+    width: 50px;
+    height: 50px;
+  }
+  .fourth_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .sushi_and_price {
+    flex-grow: 1;
+    width: 230px;
+    height: 350px;
+  }
+  .green_heart {
+    display: none;
+  }
+  .green_heart img {
+    width: 50px;
+    height: 50px;
+  }
+  .sushi_picture img {
+    width: 200px;
+    height: 200px;
+  }
+  .About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .About h5 {
+    font-size: 18px;
+  }
+  .About p {
+    font-size: 13px;
+  }
+  .dollar h5 {
+    font-size: 15px;
+  }
+  .dollar span {
+    font-size: 12px;
+  }
+  .rating img {
+    width: 17px;
+    height: 17px;
+  }
+  .rating p {
+    font-size: 15px;
+  }
+  .fifth_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .The_chef img {
+    width: 200px;
+  }
+  .best-chef {
+    top: 185px;
+    left: 30px;
+  }
+  .The_chef .best-chef {
+    width: 180px;
+  }
+  .Right_About {
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .Right_About h4 {
+    margin-top: 5rem;
+    font-size: 13px;
+    margin-bottom: 1rem;
+  }
+  .Right_About h1 {
+    font-size: 28px;
+    width: 300px;
+    text-align: left;
+  }
+  .Right_About h5 {
+    font-size: 19px;
+    line-height: normal;
+    width: 320px;
+    text-align: left;
+  }
+  .three_people img {
+    width: 150px;
+  }
+  .Feedback {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Customer_feeback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Customer_feeback p {
+    font-size: 18px;
+  }
+  .rating2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating2 img {
+    width: 20px;
+    height: 20px;
+  }
+  .rating2 p {
+    font-size: 18px;
+  }
+  .rating2 span {
+    font-size: 18px;
+  }
+  .sixth-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .left_story {
+    margin-top: -9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .left_story h5 {
+    font-size: 13px;
+  }
+  .left_story h1 {
+    font-size: 28px;
+    width: 300px;
+    text-align: left;
+    margin-top: -2rem;
+  }
+  .left_story h4 {
+    font-size: 19px;
+    width: 320px;
+    text-align: left;
+    line-height: normal;
+  }
+  .left_story p {
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+  }
+  .right_story {
+    margin-top: 2rem;
+  }
+  .two_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    padding: 2rem;
+  }
+  .box img {
+    width: 50px;
+    height: 50px;
+  }
+  .box h5 {
+    font-size: 20px;
+  }
+  .box p {
+    font-size: 15px;
+    width: 130px;
+  }
+  .seventh-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .about_sushi {
+    margin-top: -8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .about_sushi h5 {
+    font-size: 13px;
+    width: 200px;
+    line-height: normal;
+    text-align: left;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .links h4 {
+    font-size: 20px;
+  }
+  .links p {
+    font-size: 15px;
+  }
+  .Menu {
+    gap: 1rem;
+  }
+  .Menu h4 {
+    font-size: 20px;
+  }
+  .Menu p {
+    font-size: 15px;
+  }
+  .footer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .Copyright p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .apps img:nth-child(1) {
+    width: 40px;
+    height: 40px;
+  }
+  .apps img:nth-child(2) {
+    width: 160px;
+  }
+  .Copyright p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 407px) {
+  .container{
+    padding: 1rem;
+  }
+  .all_sushi {
+    padding: 4rem;
+  }
+}
+@media screen and (max-width: 374px){
+  .container{
+    padding: 1rem;
+  }
+  .below_sushi img{
+    width: 230px;
+  }
+  .left-part h1{
+    font-size: 20px;
+    width: 200px;
+  }
+  .left-part p{
+    font-size: 13px;
+    width: 220px;
+    text-align: left;
+  }
+  .buttons p{
+    width: 200px;
+  } 
+  .all_sushi{
+    padding: 2rem;
+  }
+  .sushi_and_price{
+    width: 200px;
+  }
+  .Right_About h1{
+    font-size: 20px;
+    width: 200px;
+  }
+  .Right_About h5{
+    font-size: 13px;
+    width: 220px;
+    text-align: left;
+  }
+  .left_story h1{
+    font-size: 20px;
+    width: 200px;
+  }
+  .left_story h4{
+    font-size: 13px;
+    width: 220px;
+    text-align: left;
+  }
+}

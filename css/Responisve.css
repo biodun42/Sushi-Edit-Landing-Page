@@ -1,4 +1,7 @@
 @media screen and (max-width: 1246px) {
+  .container{
+    padding: 1rem;
+  }
   .navbar {
     flex-wrap: wrap;
     display: flex;
@@ -87,6 +90,7 @@
   }
   .Right_About h5{
     width: 450px;
+    text-align: center;
   }
   .sixth-wrapper {
     flex-wrap: wrap;
@@ -101,7 +105,6 @@
     align-items: center;
   }
   .left_story h5{
-    width: 400px;
     text-align: center;
   }
   .left_story h1 {
@@ -169,7 +172,7 @@
     width: 490px;
   }
   .box{
-    padding: 1.4rem;
+    padding: 4rem;
   }
 }
 @media screen and (max-width: 524px) {
@@ -444,7 +447,7 @@
     margin-top: 2rem;
   }
   .box {
-    padding: 2rem;
+    padding: 3rem;
   }
   .box img {
     width: 50px;

@@ -436,7 +436,7 @@
     flex-direction: row;
     justify-content: center1;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
 }
 .Customer_feeback{
     display: flex;
@@ -530,7 +530,7 @@
 .box{
     flex-wrap: wrap;
     flex-grow: 1;
-    padding: 4rem;
+    padding: 5.5rem;
     box-shadow: 7px 12px 43px 0px #00000024;
     display: flex;
     flex-direction: column;

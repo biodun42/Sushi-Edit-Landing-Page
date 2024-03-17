@@ -56,6 +56,7 @@
   }
   .all_sushi{
     padding: 9rem;
+    flex-grow: 1;
   }
   .fourth_wrapper {
     display: flex;
@@ -154,12 +155,6 @@
   .below_sushi img{
     width: 400px;
   }
-  .two_top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .Right_About{
     text-align: center;
   }
@@ -168,6 +163,9 @@
   }
   .left_story h4{
     width: 490px;
+  }
+  .box{
+    padding: 1.4rem;
   }
 }
 @media screen and (max-width: 524px) {
@@ -193,7 +191,7 @@
   }
   .second-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: start;
     gap: 2rem;
   }
@@ -257,6 +255,7 @@
   }
   .all_sushi {
     padding: 6rem;
+    flex-grow: 1;
   }
   .all_sushi h5 {
     font-size: 24px;
@@ -267,13 +266,6 @@
   .dish {
     width: 150px;
     height: 150px;
-  }
-  .sushi_types {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
   }
   .Special {
     margin-top: -10rem;
@@ -297,13 +289,6 @@
   .arrow img {
     width: 50px;
     height: 50px;
-  }
-  .fourth_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
   }
   .sushi_and_price {
     flex-grow: 1;
@@ -454,12 +439,6 @@
   }
   .right_story {
     margin-top: 2rem;
-  }
-  .two_top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   .box {
     padding: 2rem;

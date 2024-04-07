@@ -59,12 +59,12 @@ nav{
   top: 0;
   background-color: white ;
   right: -75%;
-  width: 45%;
+  width: 40%;
   height: 100vh;
   transition: right .9s;
   z-index: 1000;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .off-screen-menu.active{
@@ -73,7 +73,7 @@ nav{
 .secondlink{
   display: flex;
   flex-direction: column;
-  gap: 7rem;
+  gap: 4rem;
   transition: right .9s;
 }
 .secondlink li{

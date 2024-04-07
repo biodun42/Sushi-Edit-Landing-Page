@@ -1,29 +1,18 @@
 @media screen and (max-width: 1246px) {
-  .container{
+  .container {
     padding: 1rem;
   }
-  .navbar {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
+  .firstlink{
+    gap: 2rem;
   }
-  .middle-nav p {
-    font-size: 15px;
+  .firstlink li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
   }
-  .left-logos img {
-    width: 30px;
-    height: 20px;
-  }
-  .top-button {
-    width: 120px;
-    height: 50px;
-  }
-  .top-button img {
-    width: 15px;
-    height: 15px;
-  }
-  .top-button p {
-    font-size: 15px;
+  .firstlink li img{
+    width: 23px;
+    height: 23px;
   }
   .second-wrapper {
     flex-wrap: wrap;
@@ -47,17 +36,17 @@
     font-size: 26px;
     text-align: left;
   }
-  .buttons p{
+  .buttons p {
     font-size: 19px;
   }
-  .Video h5{
+  .Video h5 {
     font-size: 19px;
   }
   .sushi_types {
     display: flex;
     justify-content: space-evenly;
   }
-  .all_sushi{
+  .all_sushi {
     padding: 9rem;
     flex-grow: 1;
   }
@@ -71,10 +60,10 @@
     display: flex;
     justify-content: space-around;
   }
-  .The_chef img{
+  .The_chef img {
     width: 500px;
   }
-  .The_chef .best-chef{
+  .The_chef .best-chef {
     display: none;
   }
   .Right_About {
@@ -86,9 +75,9 @@
   }
   .Right_About h1 {
     text-align: center;
-    width: 550px;
+    width: 500px;
   }
-  .Right_About h5{
+  .Right_About h5 {
     width: 450px;
     text-align: center;
   }
@@ -104,7 +93,7 @@
     justify-content: center;
     align-items: center;
   }
-  .left_story h5{
+  .left_story h5 {
     text-align: center;
   }
   .left_story h1 {
@@ -145,49 +134,68 @@
     align-items: start;
   }
 }
+@media screen and (max-width: 892px) {
+  .firstlink li a{
+    font-size: 15px;
+  }
+  .firstlink li img{
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 780px){
+  .firstlink{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+  }
+  .image-11{
+    display: inline-block;
+  }
+}
 @media screen and (max-width: 727px) {
-  .container{
+  .container {
     padding: 1rem;
   }
-  .left-part h1{
+  .middle-nav{
+    display: none;
+  }
+  .nav{
+    display: block;
+  }
+  .left-part h1 {
     font-size: 50px;
     width: 480px;
   }
-  .left-part p{
+  .left-part p {
     width: 480px;
   }
-  .best-sushi img{
+  .best-sushi img {
     width: 200px;
   }
-  .below_sushi img{
+  .below_sushi img {
     width: 400px;
   }
-  .Right_About{
+  .Right_About {
     text-align: center;
   }
-  .left_story h1{
+  .left_story h1 {
     width: 500px;
   }
-  .left_story h4{
+  .left_story h4 {
     width: 490px;
   }
-  .box{
+  .box {
     padding: 4rem;
   }
 }
 @media screen and (max-width: 524px) {
-  .container{
+  .container {
     padding: 1rem;
   }
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .middle-nav {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
+  .navbar button{
+    width: 80px;
   }
   .left-logos {
     margin-top: 2rem;
@@ -230,7 +238,7 @@
     height: 40px;
     font-size: 12px;
   }
-  .Video{
+  .Video {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -522,52 +530,52 @@
   }
 }
 @media screen and (max-width: 407px) {
-  .container{
+  .container {
     padding: 1rem;
   }
   .all_sushi {
     padding: 4rem;
   }
 }
-@media screen and (max-width: 374px){
-  .container{
+@media screen and (max-width: 374px) {
+  .container {
     padding: 1rem;
   }
-  .below_sushi img{
+  .below_sushi img {
     width: 230px;
   }
-  .left-part h1{
+  .left-part h1 {
     font-size: 20px;
     width: 200px;
   }
-  .left-part p{
+  .left-part p {
     font-size: 13px;
     width: 220px;
     text-align: left;
   }
-  .buttons p{
+  .buttons p {
     width: 200px;
-  } 
-  .all_sushi{
+  }
+  .all_sushi {
     padding: 2rem;
   }
-  .sushi_and_price{
+  .sushi_and_price {
     width: 200px;
   }
-  .Right_About h1{
+  .Right_About h1 {
     font-size: 20px;
     width: 220px;
   }
-  .Right_About h5{
+  .Right_About h5 {
     font-size: 13px;
     width: 230px;
     text-align: left;
   }
-  .left_story h1{
+  .left_story h1 {
     font-size: 20px;
     width: 220px;
   }
-  .left_story h4{
+  .left_story h4 {
     font-size: 13px;
     width: 230px;
     text-align: left;

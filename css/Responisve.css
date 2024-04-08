@@ -2,15 +2,15 @@
   .container {
     padding: 1rem;
   }
-  .firstlink{
+  .firstlink {
     gap: 2rem;
   }
-  .firstlink li a{
+  .firstlink li a {
     text-decoration: none;
     color: #000;
     font-size: 20px;
   }
-  .firstlink li img{
+  .firstlink li img {
     width: 23px;
     height: 23px;
   }
@@ -110,47 +110,56 @@
     text-align: center;
     margin-bottom: 4rem;
   }
-  .two_top {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .left_story p:hover {
+    transform: scale(1.1);
+    transition: ease-out 0.9s;
   }
-  .seventh-wrapper {
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  .links {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .footer {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+  @keyframes colorchanger {
+    50% {
+      display: none;
+    }
   }
 }
+.two_top {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seventh-wrapper {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.footer {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 @media screen and (max-width: 892px) {
-  .firstlink li a{
+  .firstlink li a {
     font-size: 15px;
   }
-  .firstlink li img{
+  .firstlink li img {
     width: 20px;
     height: 20px;
   }
 }
-@media screen and (max-width: 780px){
-  .firstlink{
+@media screen and (max-width: 780px) {
+  .firstlink {
     display: none;
   }
-  .hamburger-menu{
+  .hamburger-menu {
     display: block;
   }
-  .image-11{
+  .image-11 {
     display: inline-block;
   }
 }
@@ -158,10 +167,10 @@
   .container {
     padding: 1rem;
   }
-  .middle-nav{
+  .middle-nav {
     display: none;
   }
-  .nav{
+  .nav {
     display: block;
   }
   .left-part h1 {
@@ -194,21 +203,21 @@
   .box {
     padding: 4rem;
   }
-  .left_story p:hover{
+  .left_story p:hover {
     transform: scale(1.1);
-    transition: ease-out .9s;
+    transition: ease-out 0.9s;
   }
   @keyframes colorchanger {
-    0% {
+    50% {
       display: none;
-    }  
+    }
   }
 }
 @media screen and (max-width: 524px) {
   .container {
     padding: 1rem;
   }
-  .navbar button{
+  .navbar button {
     width: 80px;
   }
   .left-logos {

@@ -186,8 +186,22 @@
   .left_story h4 {
     width: 490px;
   }
+  .left_story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .box {
     padding: 4rem;
+  }
+  .left_story p:hover{
+    transform: scale(1.1);
+    transition: ease-out .9s;
+  }
+  @keyframes colorchanger {
+    0% {
+      display: none;
+    }  
   }
 }
 @media screen and (max-width: 524px) {

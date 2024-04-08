@@ -610,9 +610,11 @@ nav {
   0% {
     transform: translateX(0px);
   }
-
   25% {
     transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(300px) translateY(80px) rotate(90deg);
   }
   100% {
     transform: translateX(0px);

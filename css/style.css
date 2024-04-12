@@ -8,6 +8,9 @@
 .container {
   padding: 2rem;
 }
+body.active{
+  position: fixed;
+}
 /* THIS IS THE NAVBAR WITH THE TOP SUSHI LOGO AND THE CONTACT BUTTON */
 nav {
   padding: 1rem;

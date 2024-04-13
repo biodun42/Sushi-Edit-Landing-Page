@@ -57,8 +57,6 @@ nav {
   top: 50%;
 }
 .off-screen-menu {
-  margin-top: 5rem;
-  padding: 1rem;
   position: fixed;
   top: 0;
   background-color: white;
